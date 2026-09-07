@@ -10,3 +10,10 @@ Customer::Customer(){
     phone = "";
     email = "";
 }
+//parameterized constractor
+Customer::Customer(int customerId, string name, string phone, string email){
+    customerId = id;
+    this->name = name;
+    this->phone = phone;
+    this->email = email;
+}
