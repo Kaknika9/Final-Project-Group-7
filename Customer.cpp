@@ -29,3 +29,7 @@ string Customer::getName() const{
 string Customer::getPhone() const{
     return phone;
 }
+// get customer email
+string Customer::getEmail() const{
+    return email;
+}
