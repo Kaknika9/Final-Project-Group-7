@@ -11,7 +11,7 @@ Customer::Customer(){
     email = "";
 }
 //parameterized constractor
-Customer::Customer(int customerId, string name, string phone, string email){
+Customer::Customer(int id, string name, string phone, string email){
     customerId = id;
     this->name = name;
     this->phone = phone;
@@ -45,4 +45,13 @@ void Customer::setPhone(string phone){
 //set customer email
 void Customer::setEmail(string email){
     this->email = email;
+}
+
+//add a rental ID to the customer's history
+void Customer::addRentalId(int rentalId){
+    rentalId.push_back(rentalId);
+}
+//add a remove ID to the customer's history
+void Customer::removeRental(int rentalId){
+    
 }
