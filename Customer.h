@@ -15,7 +15,8 @@ class Customer{
     string email;
 
     //store the rental IDs
-    vector<int> rentalId;
+    vector<int> rentalIds;
+    
     public:
     //default constructor
     Customer();

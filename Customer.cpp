@@ -49,9 +49,14 @@ void Customer::setEmail(string email){
 
 //add a rental ID to the customer's history
 void Customer::addRentalId(int rentalId){
-    rentalId.push_back(rentalId);
+    rentalIds.push_back(rentalId);
 }
 //add a remove ID to the customer's history
 void Customer::removeRental(int rentalId){
-    
+    for (auto it = rentalIds.begin(); it != rentalIds.end(); ++it){
+        if (*it == rentalId){
+            rentalIds.erase(it);
+            break;
+        }
+    }
 }
