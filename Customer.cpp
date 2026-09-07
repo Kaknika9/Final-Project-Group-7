@@ -22,6 +22,10 @@ int Customer::getCustomerId() const{
     return customerId;
 }
 //get customer name
-string Customer::getName()const{
+string Customer::getName() const{
     return name;
+}
+// get customer phone
+string Customer::getPhone() const{
+    return phone;
 }
