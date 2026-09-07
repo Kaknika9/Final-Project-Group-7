@@ -21,3 +21,7 @@ Customer::Customer(int customerId, string name, string phone, string email){
 int Customer::getCustomerId() const{
     return customerId;
 }
+//get customer name
+string Customer::getName()const{
+    return name;
+}
