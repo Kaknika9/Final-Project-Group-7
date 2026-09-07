@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//default constructor
 Customer::Customer(){
     customerId = 0;
     name = "";
