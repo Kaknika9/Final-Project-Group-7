@@ -38,3 +38,7 @@ string Customer::getEmail() const{
 void Customer::setName(string name){
     this->name = name;
 }
+//set customer phone
+void Customer::setPhone(string phone){
+    this->phone = phone;
+}
