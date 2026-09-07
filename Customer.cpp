@@ -42,3 +42,7 @@ void Customer::setName(string name){
 void Customer::setPhone(string phone){
     this->phone = phone;
 }
+//set customer email
+void Customer::setEmail(string email){
+    this->email = email;
+}
