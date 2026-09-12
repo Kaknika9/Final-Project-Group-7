@@ -41,3 +41,7 @@ int Rental::getCustomerId() const{
 int Rental::getVehicleId() const{
     return vehicleId;
 }
+//get number of rental days
+int Rental::getRentalDays() const{
+    return rentalDays;
+}
