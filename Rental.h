@@ -37,7 +37,10 @@ class Retal{
 
     //calulate rental cost
     void calculateTotal();
-    
+
+    //complete the rental
+    void rentalVehicle();
+
 
 
    
