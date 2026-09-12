@@ -29,7 +29,7 @@ class Rental{
     int getRentalDays() const;
     double getDailyRate() const;
     double getTotalCost()const;
-    bool getActive() const;
+    bool isActive() const;
 
     //setter
     void setRentalDay(int days);

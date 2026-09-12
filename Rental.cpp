@@ -53,3 +53,7 @@ double Rental::getDailyRate() const{
 double Rental::getTotalCost() const{
     return totalCost;
 }
+//check whetter the renatal is still active
+bool Rental::isActive() const{
+    return active;
+}
