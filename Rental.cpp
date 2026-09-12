@@ -64,3 +64,10 @@ void Rental::setRentalDays(int days){
         calculateTotal();
     }
 }
+//change daily rental rate
+void Rental::setDailyRate(double rate){
+    if (rate>=0){
+        dailyRate = rate;
+        calculateTotal();
+    }
+}
