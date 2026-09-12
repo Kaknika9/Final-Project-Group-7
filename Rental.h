@@ -30,6 +30,10 @@ class Retal{
     double getDailyRate() const;
     double getTotalCost()const;
     bool getActive() const;
+
+    //setter
+    void setRentalDay(int days);
+    void setDailyRate(double rate);
     
 
 
