@@ -41,7 +41,8 @@ class Retal{
     //complete the rental
     void rentalVehicle();
 
+    //Display rental informatiom
+    void displayRental() const;
 
-
-   
 };
+#endif
