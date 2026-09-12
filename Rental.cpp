@@ -71,3 +71,7 @@ void Rental::setDailyRate(double rate){
         calculateTotal();
     }
 }
+//calculate the total rental cost
+void Rental::calculateTotal(){
+    totalCost = rentalDays * dailyRate;
+}
