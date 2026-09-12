@@ -24,4 +24,7 @@ Rental::Rental(int rentalId, int customerId, int vehicleId, int rentalDays, doub
 
     //A new rental is active
     active = true;
+
+    //calculate the total rental cost
+    calculateTotal();
 }

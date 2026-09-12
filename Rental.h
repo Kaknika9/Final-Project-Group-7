@@ -4,7 +4,7 @@
 #include <iostream> 
 using namespace std;
 
-class Retal{
+class Rental{
     //private data members for encapulation
     private : 
     int rentalId;
