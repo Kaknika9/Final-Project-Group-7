@@ -18,6 +18,10 @@ class Retal{
     public:
     //default constructor
     Rental();
+
+    //parameterized constructor 
+    Rental(int rentalId, int customerId, int vehicleId, int rentalDays, double dailyRate);
     
+
    
 };
