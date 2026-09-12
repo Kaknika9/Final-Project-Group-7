@@ -49,3 +49,7 @@ int Rental::getRentalDays() const{
 double Rental::getDailyRate() const{
     return dailyRate;
 }
+//get total rental cost
+double Rental::getTotalCost() const{
+    return totalCost;
+}
