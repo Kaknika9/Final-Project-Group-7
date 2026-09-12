@@ -14,4 +14,10 @@ class Retal{
     double dailyRate;
     double totalCost;
     bool active;
+    
+    public:
+    //default constructor
+    Rental();
+    
+   
 };
