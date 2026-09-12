@@ -45,3 +45,7 @@ int Rental::getVehicleId() const{
 int Rental::getRentalDays() const{
     return rentalDays;
 }
+//get daily rental rate
+double Rental::getDailyRate() const{
+    return dailyRate;
+}
