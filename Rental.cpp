@@ -75,7 +75,7 @@ void Rental::setDailyRate(double rate){
 void Rental::calculateTotal(){
     totalCost = rentalDays * dailyRate;
 }
-//mark the rental as completed
+//Mark the rental as completed
 void Rental::returnVehicle(){
     active = false;
 }
