@@ -21,7 +21,17 @@ class Retal{
 
     //parameterized constructor 
     Rental(int rentalId, int customerId, int vehicleId, int rentalDays, double dailyRate);
+
+    //getter
+    int getRentalId() const;
+    int getCustomerId() const;
+    int getVehicleId() const;
+    int getRentalDays() const;
+    double getDailyRate() const;
+    double getTotalCost()const;
+    bool getActive() const;
     
+
 
    
 };
