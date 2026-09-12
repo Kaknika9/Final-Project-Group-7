@@ -21,3 +21,4 @@ class Utils{
     // Read a non emptly string 
     static string readString(string message);
 };
+#endif
