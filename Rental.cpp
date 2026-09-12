@@ -28,3 +28,8 @@ Rental::Rental(int rentalId, int customerId, int vehicleId, int rentalDays, doub
     //calculate the total rental cost
     calculateTotal();
 }
+
+//get rental ID
+int Rental::getRentalId() const{
+    return rentalId;
+}
