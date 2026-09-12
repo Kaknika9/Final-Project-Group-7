@@ -57,3 +57,10 @@ double Rental::getTotalCost() const{
 bool Rental::isActive() const{
     return active;
 }
+//change rental days
+void Rental::setRentalDays(int days){
+    if (days>0){
+        rentalDays = days;
+        calculateTotal();
+    }
+}

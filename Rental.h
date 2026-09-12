@@ -32,7 +32,7 @@ class Rental{
     bool isActive() const;
 
     //setter
-    void setRentalDay(int days);
+    void setRentalDays(int days);
     void setDailyRate(double rate);
 
     //calulate rental cost
