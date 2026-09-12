@@ -37,3 +37,7 @@ int Rental::getRentalId() const{
 int Rental::getCustomerId() const{
     return customerId;
 }
+//get vehicle ID
+int Rental::getVehicleId() const{
+    return vehicleId;
+}
