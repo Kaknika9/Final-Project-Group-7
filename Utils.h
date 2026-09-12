@@ -14,4 +14,8 @@ class Utils{
 
     // Read a valid double
     static double readDouble(string message);
+
+    // Read a valid positive double 
+    static double readPositiveDouble(string message);
+    
 };
