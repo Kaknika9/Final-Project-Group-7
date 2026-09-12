@@ -33,3 +33,7 @@ Rental::Rental(int rentalId, int customerId, int vehicleId, int rentalDays, doub
 int Rental::getRentalId() const{
     return rentalId;
 }
+//get customer ID
+int Rental::getCustomerId() const{
+    return customerId;
+}
