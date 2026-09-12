@@ -34,6 +34,9 @@ class Retal{
     //setter
     void setRentalDay(int days);
     void setDailyRate(double rate);
+
+    //calulate rental cost
+    void calculateTotal();
     
 
 
