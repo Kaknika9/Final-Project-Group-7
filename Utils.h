@@ -11,4 +11,7 @@ class Utils{
 
     // Read a valid positive integer
     static int readPositiveInt(string message);
+
+    // Read a valid double
+    static double readDouble(string message);
 };
