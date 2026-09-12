@@ -39,7 +39,7 @@ class Rental{
     void calculateTotal();
 
     //complete the rental
-    void rentalVehicle();
+    void returnVehicle();
 
     //Display rental informatiom
     void displayRental() const;
