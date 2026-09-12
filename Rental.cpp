@@ -79,3 +79,21 @@ void Rental::calculateTotal(){
 void Rental::returnVehicle(){
     active = false;
 }
+//Display rental information
+void Rental::displayRental() const{
+    cout << "Rental ID: " << rentalId << endl;
+    cout << "Customer ID: " << customerId << endl;
+    cout << "Vehicle ID: " << vehicleId << endl;
+    cout << "Rental Days: " << rentalDays << endl;
+    cout << "Dialy Rate: $" << dailyRate << endl;
+    cout << "Total Cost: $" << totalCost << endl;
+
+    cout <<"Status: ";
+    if (active){
+        cout << "Active";
+    }
+    else{
+        cout << "Returned";
+    }
+    cout << endl;
+}
