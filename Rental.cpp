@@ -21,4 +21,7 @@ Rental::Rental(int rentalId, int customerId, int vehicleId, int rentalDays, doub
     this->vehicleId = vehicleId;
     this->rentalDays = rentalDays;
     this->dailyRate = dailyRate;
+
+    //A new rental is active
+    active = true;
 }
