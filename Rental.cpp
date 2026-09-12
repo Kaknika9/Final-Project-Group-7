@@ -13,3 +13,12 @@ Rental::Rental(){
     totalCost = 0.0;
     active = false;
 }
+
+//parameterized constructor
+Rental::Rental(int rentalId, int customerId, int vehicleId, int rentalDays, double dailyRate){
+    this->rentalId = rentalId;
+    this->customerId = customerId;
+    this->vehicleId = vehicleId;
+    this->rentalDays = rentalDays;
+    this->dailyRate = dailyRate;
+}
